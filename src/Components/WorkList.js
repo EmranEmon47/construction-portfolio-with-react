@@ -26,7 +26,7 @@ export const WorkList = () => {
 
   return (
     <div className='min-h-screen w-full bg-[#181818] pt-20'>
-         <h5 className="uppercase text-lg text-center text-white ">COMPLETE WORK LIST</h5>
+         <h5 className="uppercase text-lg text-center text-[#fd8700] ">COMPLETE WORK LIST</h5>
         <h1 className="text-7xl text-white font-semibold uppercase text-center">
         WE’VE COMPLETED INTERESTING <br /> PROJECTS
         </h1>

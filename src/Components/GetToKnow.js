@@ -8,7 +8,7 @@ export const GetToKnow = () => {
         <img src={getKnowImage} className="w-[700px]" alt="get-to-know" />
       </div>
       <div className="basis-1/2">
-        <small className="uppercase text-lg">Get to know us</small>
+        <small className="uppercase text-lg text-[#fd8700]">Get to know us</small>
         <h1 className="text-7xl text-black font-semibold uppercase">
           WE’RE BUILDING THE GREATEST FUTURE NOW
         </h1>

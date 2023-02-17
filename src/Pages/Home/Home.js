@@ -4,6 +4,7 @@ import { Hero } from '../../Components/Hero'
 import { Testimonial } from '../../Components/Testimonial'
 import { WorkList } from '../../Components/WorkList'
 import { Ads } from '../../Shared/Ads'
+import { Footer } from '../../Shared/Footer'
 import { Nav } from '../../Shared/Nav'
 
 export const Home = () => {
@@ -15,6 +16,7 @@ export const Home = () => {
         <GetToKnow/>
         <WorkList/>
         <Testimonial/>
+        <Footer/>
     </div>
   )
 }
