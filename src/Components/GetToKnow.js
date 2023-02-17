@@ -21,7 +21,7 @@ export const GetToKnow = () => {
           numquam temporibus dolorum? Cupiditate deleniti sed non illum facilis?
         </p>
         <button
-          className="text-xl font-semibold    px-8 py-4  bg-[#fd8700] text-white uppercase"
+          className="text-xl font-semibold hover:bg-black hover:text-white   px-8 py-4  bg-[#fd8700] text-white uppercase"
         >
           Discover more
         </button>

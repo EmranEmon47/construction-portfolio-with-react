@@ -34,7 +34,7 @@ export const WorkList = () => {
         {
                 images.map(m => (
                     <div className='my-16'>
-                    <img className="my-auto w-[700px] px-8 " src={m} alt="" />
+                    <img className=" w-[900px] px-4 " src={m} alt="" />
                 </div>
               ))
 

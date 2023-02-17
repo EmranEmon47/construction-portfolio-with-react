@@ -16,7 +16,7 @@ export const Hero = () => {
           >
             We are leader in construction work
           </h1>
-          <button className="text-xl font-semibold absolute left-44 top-96 mt-16 ml-3 px-8 py-4 z-20 bg-[#181818] text-white uppercase">
+          <button className="text-xl font-semibold hover:bg-white hover:text-[#fd8700] absolute left-44 top-96 mt-16 ml-3 px-8 py-4 z-20 bg-[#181818] text-white uppercase">
             Discover more
           </button>
         </div>
