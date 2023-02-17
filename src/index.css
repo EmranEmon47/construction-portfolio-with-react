@@ -21,3 +21,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.slick-slider{
+  @apply overflow-hidden;
+}
+
+.slick-track{
+  @apply !flex items-center justify-center;
+}
