@@ -16,10 +16,10 @@ export const WorkList = () => {
       dots: false,
       infinite: true,
       autoplay: true,
-      autoplaySpeed:1300,
+      autoplaySpeed:1500,
       cssEase: 'linear',
       slidesToShow: 4,
-      slidesToScroll: 1
+      slidesToScroll: 1,
     };
     const images=[work1, work2,work6, work3, work4, work5];
 
@@ -27,7 +27,7 @@ export const WorkList = () => {
   return (
     <div className='min-h-screen w-full bg-[#181818] pt-20'>
          <h5 className="uppercase text-lg text-center text-[#fd8700] ">COMPLETE WORK LIST</h5>
-        <h1 className="text-7xl text-white font-semibold uppercase text-center">
+        <h1 className="font-semibold text-center text-white uppercase text-7xl">
         WE’VE COMPLETED INTERESTING <br /> PROJECTS
         </h1>
         <Slider {...settings} className="overflow-hidden">

@@ -4,21 +4,19 @@ import heroImage from "../Assets/Images/banner.jpg";
 export const Hero = () => {
   return (
     <div>
-      <div className="min-h-screen relative bg-center bg-cover bg-no-repeat  bg-black bg-opacity-50">
+      <div className="relative min-h-[400px] bg-black bg-opacity-50 bg-center bg-no-repeat bg-cover lg:min-h-screen">
         <img
           src={heroImage}
-          className="absolute w-full h-full z-[-1]   "
+          className="absolute w-full lg:h-full h-full z-[-1]   "
           alt="hero-bg"
         />
-        <div className="z-10 w-full h-full relative  ">
+        <div className="relative z-10 w-full h-full ">
           <h1
-            className="text-7xl uppercase absolute left-40 top-40  font-[Barlow Condensed] relative px-6 py-10   z-20  font-black text-white bg-[#fd8700] w-[500px] h-[370px]"
+            className="lg:text-7xl text-5xl uppercase absolute left-0 top-64 pt-12 px-2 lg:left-40 lg:top-40  font-[Barlow Condensed] relative lg:px-8 lg:py-12   z-20 font-bold  lg:font-black text-white lg:bg-[#fd8700] lg:w-[520px] lg:h-[300px]"
           >
             We are leader in construction work
           </h1>
-          <button className="text-xl font-semibold hover:bg-white hover:text-[#fd8700] absolute left-44 top-96 mt-16 ml-3 px-8 py-4 z-20 bg-[#181818] text-white uppercase">
-            Discover more
-          </button>
+          
         </div>
       </div>
     </div>
