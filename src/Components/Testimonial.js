@@ -5,14 +5,18 @@ import butterfly from '../Assets/Images/65254-butterfly.gif';
 
 export const Testimonial = () => {
   return (
-    <div className="min-h-screen py-14">
-      <h5 className="uppercase text-lg text-center text-[#fd8700] ">
+    <div className="min-h-screen py-8 lg:py-14">
+
+      {/* heading */}
+      <h5 className="uppercase text-lg lg:text-center px-2 text-[#fd8700] ">
         CLIENT TESTIMONAILS
       </h5>
-      <h1 className="font-semibold text-center text-black uppercase text-7xl">
+      <h1 className="px-2 text-5xl font-medium text-black uppercase lg:font-semibold lg:text-center lg:text-7xl">
         WHAT THEY ARE SAYING <br /> ABOUT OUR COMPANY
       </h1>
-      <div className="flex items-center justify-between gap-12 py-16 px-28">
+
+      {/* testimonial box */}
+      <div className="flex flex-col items-center justify-between gap-4 px-2 py-8 lg:flex-row lg:gap-12 lg:py-16 lg:px-28">
         <div className="flex flex-col justify-center items-center bg-[#181818] py-8 px-8">
           <div>
             <img src={testimonialPhoto1} className="w-20 rounded-full" alt="" />

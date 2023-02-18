@@ -12,29 +12,54 @@ import work6 from '../Assets/Images/20210129_103652.jpg';
 
 
 export const WorkList = () => {
+
+
+  // carousel setting
+  
     let settings = {
       dots: false,
       infinite: true,
       autoplay: true,
       autoplaySpeed:1500,
       cssEase: 'linear',
-      slidesToShow: 4,
+      slidesToShow: 3,
       slidesToScroll: 1,
+
+      //  for mobile version
+      responsive: [
+        {
+          breakpoint: 480,
+          settings: {
+            dots: false,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed:1500,
+            cssEase: 'linear',
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
+        }
+       
+      ]
     };
     const images=[work1, work2,work6, work3, work4, work5];
 
 
   return (
-    <div className='min-h-screen w-full bg-[#181818] pt-20'>
-         <h5 className="uppercase text-lg text-center text-[#fd8700] ">COMPLETE WORK LIST</h5>
-        <h1 className="font-semibold text-center text-white uppercase text-7xl">
+    <div className='lg:min-h-screen w-full bg-[#181818] lg:pt-20 py-8'>
+
+      {/* heading */}
+         <h5 className="uppercase text-lg lg:text-center text-[#fd8700] px-4">COMPLETE WORK LIST</h5>
+        <h1 className="px-4 pb-8 text-5xl font-medium text-white uppercase lg:text-center lg:font-semibold lg:text-7xl">
         WE’VE COMPLETED INTERESTING <br /> PROJECTS
         </h1>
+
+        {/* carousel */}
         <Slider {...settings} className="overflow-hidden">
         {
                 images.map(m => (
-                    <div className='my-16'>
-                    <img className=" w-[900px] px-4 " src={m} alt="" />
+                    <div className='py-8 lg:my-16'>
+                    <img className=" w-[900px] lg:px-4 " src={m} alt="" />
                 </div>
               ))
 
