@@ -3,10 +3,10 @@ import getKnowImage from "../Assets/Images/get-to-know.jpg";
 
 export const GetToKnow = () => {
   return (
-    <div className="flex flex-col items-center justify-between min-h-screen py-4 lg:gap-4 lg:flex-row lg:px-36">
+    <div className="flex flex-col items-center justify-center min-h-screen gap-12 py-4 lg:items-center lg:justify-between lg:gap-4 lg:flex-row lg:px-36">
       {/* image part */}
       <div className="basis-1/2">
-        <img src={getKnowImage} className="lg:w-[700px] w-full " alt="get-to-know" />
+        <img src={getKnowImage} className="lg:w-[700px] w-full pt-2" alt="get-to-know" />
       </div>
 
       {/* description part */}

@@ -1,7 +1,7 @@
 import React from "react";
 import testimonialPhoto1 from "../Assets/Images/testimonial1.jpg";
 import testimonialPhoto2 from "../Assets/Images/testimonial2.jpg";
-import butterfly from '../Assets/Images/65254-butterfly.gif';
+import phoneBook from '../Assets/Images/phonebook.png';
 
 export const Testimonial = () => {
   return (
@@ -46,8 +46,8 @@ export const Testimonial = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center ">
-        <img src={butterfly} className='w-36 ' alt="img" /> <p className="px-4 text-3xl font-semibold text-[#fd8700]">For all quotes call: <a href="tel:+0XXXXXXXXX">0XXXXXXXXX</a></p>
+      <div className="flex items-center justify-center bg-[#181818] py-4 px-2 w-fit mx-auto">
+        <img src={phoneBook} className='w-12 lg:w-20' alt="img" /> <p className="px-4 text-xl font-semibold text-[#fd8700] lg:text-3xl">For all quotes call: <a href="tel:+0XXXXXXXXX"><br /> <small className="text-xl font-semibold text-white lg:text-3xl">+0XXXXXXXXXXX</small></a></p>
       </div>
     </div>
   );
